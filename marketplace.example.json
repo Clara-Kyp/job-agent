@@ -1,0 +1,21 @@
+{
+  "name": "applyflow-beta",
+  "interface": {
+    "displayName": "Job Agent Beta"
+  },
+  "plugins": [
+    {
+      "name": "applyflow-job-agent",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Clara-Kyp/job-agent.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

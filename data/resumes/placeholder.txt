@@ -1,0 +1,40 @@
+Alex Chen
+alex.chen@email.com | (555) 123-4567 | linkedin.com/in/alexchen | github.com/alexchen
+
+SUMMARY
+Full-stack software engineer with 3+ years of experience building web applications
+using React, TypeScript, and Node.js. Passionate about creating intuitive user
+experiences and scalable backend systems. Previously interned at a Series B startup
+where I shipped features used by 50k+ users.
+
+SKILLS
+JavaScript, TypeScript, Python, React, Next.js, Node.js, Express, PostgreSQL,
+MongoDB, Redis, Docker, AWS (EC2, S3, Lambda), Git, REST APIs, GraphQL,
+HTML/CSS, Tailwind CSS, Playwright, Jest, CI/CD
+
+EXPERIENCE
+Software Engineer Intern — TechFlow Inc. | Summer 2024
+• Built a real-time analytics dashboard using React and D3.js that visualized user engagement metrics for 50k+ monthly active users
+• Designed and implemented a REST API with Node.js and Express, reducing average response time by 40%
+• Migrated legacy jQuery components to React, improving page load speed by 25%
+• Collaborated with a team of 5 engineers using Agile/Scrum methodology
+
+Backend Developer — University CS Lab | Sep 2023 – May 2024
+• Developed a natural language processing pipeline using Python and spaCy for automated essay scoring
+• Built a PostgreSQL database schema to store 100k+ student submissions with full-text search
+• Implemented a CI/CD pipeline using GitHub Actions that automated testing and deployment
+
+Freelance Web Developer | Jan 2023 – Present
+• Built and deployed 5+ client websites using Next.js and Tailwind CSS
+• Integrated payment processing with Stripe API for e-commerce clients
+• Optimized SEO and performance, achieving 95+ Lighthouse scores
+
+EDUCATION
+B.S. Computer Science — State University | 2024
+GPA: 3.7/4.0 | Dean's List | Relevant coursework: Data Structures, Algorithms,
+Database Systems, Machine Learning, Web Development
+
+PROJECTS
+TaskFlow — Collaborative project management tool built with React, Node.js, and WebSocket
+StudyBuddy — AI-powered study assistant using OpenAI API and Next.js
+DevTrack — Personal developer metrics dashboard using D3.js and PostgreSQL

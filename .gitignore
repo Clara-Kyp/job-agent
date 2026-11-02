@@ -1,0 +1,22 @@
+node_modules/
+dist/
+dist-worker/
+.worker-resumes/
+.next/
+*.tsbuildinfo
+.env*
+!.env.example
+output/
+data/*
+!data/resumes/
+data/resumes/*
+!data/resumes/placeholder.txt
+*.log
+.DS_Store
+.claude/settings.local.json
+
+# webcmd (vendored dependency)
+webcmd/
+webcmd/node_modules/
+webcmd/dist/
+webcmd/bun.lock

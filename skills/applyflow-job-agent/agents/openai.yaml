@@ -1,0 +1,4 @@
+interface:
+  display_name: "ApplyFlow Job Agent"
+  short_description: "Prepare job applications from a verified local profile"
+  default_prompt: "Use my local candidate profile to prepare the application for this job URL, ask about unsupported fields, and stop before submission."

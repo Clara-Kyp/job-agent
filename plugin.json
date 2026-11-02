@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "applyflow-job-agent",
+  "version": "0.1.0-beta.1",
+  "description": "Prepare job applications from a verified local profile and stop before submission.",
+  "author": {
+    "name": "Clara-Kyp",
+    "url": "https://github.com/Clara-Kyp"
+  },
+  "homepage": "https://github.com/Clara-Kyp/job-agent",
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md"
+    }
+  }
+}

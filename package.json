@@ -1,0 +1,78 @@
+{
+  "name": "applyflow-job-agent",
+  "version": "0.1.0-beta.1",
+  "description": "Local-first job application agent with a verified candidate profile and mandatory pre-submit review.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.cli.json",
+    "build:worker": "tsc -p tsconfig.worker.json",
+    "build:web": "next build",
+    "dev:web": "next dev --hostname 127.0.0.1",
+    "start:web": "next start --hostname 127.0.0.1",
+    "start:worker": "node dist-worker/worker/server.js",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "apply": "tsx src/index.ts apply",
+    "history": "tsx src/index.ts history",
+    "profile:init": "tsx src/index.ts profile:init",
+    "profile:show": "tsx src/index.ts profile:show",
+    "profile:remember": "tsx src/index.ts profile:remember",
+    "test:smoke": "tsx src/test-smoke.ts",
+    "test:profile": "tsx src/test-profile.ts",
+    "test:scrape": "tsx src/test-greenhouse.ts",
+    "webcmd:setup": "cd webcmd && npm install && npm run build",
+    "webcmd:doctor": "webcmd doctor -f json",
+    "beisen:inspect": "tsx src/beisen/inspect.ts",
+    "beisen:fill-preview": "tsx src/beisen/fill-preview.ts",
+    "beisen:fill-test-preview": "tsx src/beisen/fill-test-preview.ts"
+  },
+  "bin": {
+    "applyflow": "./dist/index.js"
+  },
+  "keywords": [
+    "ats",
+    "job-application",
+    "webcmd",
+    "playwright",
+    "automation",
+    "greenhouse",
+    "lever"
+  ],
+  "license": "MIT",
+  "author": "Clara-Kyp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Clara-Kyp/job-agent.git"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.125.0",
+    "@google/generative-ai": "^0.21.0",
+    "@upstash/redis": "^1.38.4",
+    "better-sqlite3": "^11.6.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "fflate": "^0.8.3",
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.468.0",
+    "mammoth": "^1.13.0",
+    "next": "^15.5.27",
+    "openai": "^7.15.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "unpdf": "^1.8.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.14",
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.1.14",
+    "@types/react-dom": "^19.1.9",
+    "playwright": "^1.63.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.14",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
