@@ -1,6 +1,6 @@
 ---
 name: setup-applyflow-job-agent
-description: Set up the ApplyFlow Job Agent private beta on a user's computer, including dependencies, local configuration, browser checks, and initial candidate profile creation.
+description: Set up the Job Agent public beta on a user's computer, including dependencies, local configuration, browser checks, and initial candidate profile creation.
 ---
 
 # Set up ApplyFlow Job Agent

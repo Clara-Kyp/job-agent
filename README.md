@@ -4,7 +4,7 @@
 
 Local-first job application preparation built from [ApplyFlow](https://github.com/SouravBhowmik-guice/ATS). Job Agent turns your resume and supplemental notes into a reusable candidate profile, asks for unsupported details, drafts grounded answers, fills ATS forms, and always stops before submission.
 
-> Private beta: intended for invited testers running Codex and Chrome on their own computer. Never commit resumes, API keys, or `data/profile.json`.
+> Public beta: runs locally with Codex and Chrome. Never commit resumes, API keys, or `data/profile.json`.
 
 ### 国科微北森表单试点（本机）
 
@@ -113,7 +113,7 @@ The profile is saved to `data/profile.json` with file mode `0600` and is exclude
 npm run profile:remember -- "Why are you interested in us?" "Your confirmed answer"
 ```
 
-### Local web onboarding (private beta)
+### Local web onboarding (public beta)
 
 Run `npm run dev:web` and open `http://localhost:3000`. A first-time user now completes two steps:
 
